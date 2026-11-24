@@ -1,0 +1,21 @@
+body{margin:0;font-family:'Inter',system-ui,sans-serif;color:#0B1A33;background:#F5F8FF}
+html{scroll-behavior:smooth}
+a{color:#1549CC}a:hover{color:#0F3FBF}
+.display{font-family:'Space Grotesk','Inter',system-ui,sans-serif}
+.navlink:hover{background:#E3ECFF !important}
+.btn-primary:hover{background:#0F3FBF !important}
+.btn-ghost:hover{background:#E3ECFF !important}
+.btn-light:hover{background:#DCE8FF !important}
+.btn-primary:focus-visible,.btn-ghost:focus-visible,.btn-light:focus-visible,.navlink:focus-visible{outline:3px solid #1D5FFF;outline-offset:2px}
+*,*::before,*::after{box-sizing:border-box}
+[hidden]{display:none !important}
+#reviews-list{display:flex;flex-wrap:wrap;gap:24px}
+.review-card{flex:1 1 280px;min-width:0;margin:0;background:#ffffff;border:1px solid #DCE6FA;border-radius:16px;padding:28px;display:flex;flex-direction:column;gap:20px}
+.review-card blockquote{margin:0;font-size:17px;line-height:1.65;color:#0B1A33;overflow-wrap:anywhere;white-space:pre-line}
+.review-card figcaption{margin-top:auto;display:flex;flex-direction:column;gap:2px}
+.review-name{font-weight:600;font-size:15px}
+.review-biz{font-size:14px;color:#4A5A78}
+.review-remove{align-self:flex-start;min-height:44px;padding:0;background:none;border:0;color:#1549CC;font:inherit;font-size:14px;font-weight:600;cursor:pointer;text-decoration:underline}
+#review-form input:focus-visible,#review-form textarea:focus-visible,.review-remove:focus-visible{outline:3px solid #1D5FFF;outline-offset:2px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
